@@ -1,0 +1,529 @@
+@font-face {
+    font-family: 'amiriregular';
+    src: url('../assets/fonts/amiri/amiri-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/amiri/amiri-regular-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('../assets/fonts/Playfair/playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../assets/fonts/Playfair/playfairdisplay-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face { 
+    font-family: 'EB Garamond'; 
+    font-style: normal; 
+    font-weight: 400; 
+    src: url('../assets/fonts/Garamond/eb-garamond-v13-latin-regular.woff2') format('woff2'),
+        url('../assets/fonts/Playfair/playfairdisplay-variablefont_wght-webfont.woff') format('woff');
+}
+
+@font-face { 
+    font-family: 'Lato';
+    font-style: normal; 
+    font-weight: 200; 
+    src: 
+     url('../assets/fonts/lato/lato-v16-latin-regular.woff2') format('woff2'),
+     url('../assets/fonts/lato/lato-v16-latin-regular.woff') format('woff'); 
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 90vh;
+    /* background-image: url(../assets/images/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg); */
+    background: #2A2E31;
+    background-image: url(../assets/images/man-min.jpg);
+    /* background-size: contain; */
+    background-repeat: no-repeat; 
+    background-size: 46vw;
+    background-position: 25% 100%;
+
+}
+
+@media (min-width:950px) and (max-width: 1024px) {
+
+header {
+    height: 80vh;
+    /* background-image: url(../assets/images/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg); */
+    background: #1E1F21;
+    background-image: url(../assets/images/Untitled_half.jpg);
+    /* background-size: contain; */
+    background-repeat: no-repeat; 
+    background-size: 80%;
+    background-position: 0% 70%;
+}
+
+/* header .ipad-pro .col-lg-5 {
+   border: 2px solid red;
+   -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 80vw;
+} */
+
+}
+
+header nav ul .dropdown-menu a{
+    color: #1D242A !important;
+}
+header nav ul li a{
+    color: white !important;
+    font-size: 1.1em;
+}
+
+header nav ul li {
+    padding: 0 20px;
+}
+
+header nav a h2 {
+    font-family: 'amiriregular', Fallback, sans-serif;
+}
+
+header #header-content {
+    margin-top: 10%;
+    color: white;
+}
+
+header #header-content h2{
+    font-family: 'EB Garamond', serif;
+    font-size: 3.5em;
+}
+
+header #header-content h3{
+    font-family: 'playfair_displayregular';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1em;
+    border-bottom: 2px solid #E1926C;
+}
+
+header #header-content p {
+    padding-top: 10%;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding-bottom: 10%;
+}
+
+header #header-content a {
+    margin-top: 10%;
+    background-color: #E1926C;
+    padding: 17px 25px;
+    color: white;
+    border-radius: 4px;
+}
+
+.section-1 {
+    background-image: url(../assets/images/adult-thoughtful-writer-creating-new-article-3932277.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.section-1 #section-1-content {
+    margin-top: 20vh;
+}
+
+.section-1 #section-1-content h1 {
+    color: #1D242A;
+    font-family: 'amiriregular', Fallback, sans-serif;
+    font-size: 4.5em;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.section-1 #section-1-content h3{
+    color: #1D242A;
+    font-family: 'playfair_displayregular';
+    font-size: 40px;
+    line-height: 1.1em;
+    padding-bottom: 10%;
+    border-bottom: 2px solid #E1926C;
+}
+
+.section-1 #section-1-content p{
+    font-family: 'Lato';
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+.section-1 #section-1-content a {
+    display: inline-block;
+    background-color: #1D242A;
+    padding: 17px 25px;
+    color: white;
+    border-radius: 4px;
+}
+
+.section-2 {
+    background-image: url(../assets/images/img2.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-2 #section-2-content2 {
+    margin-top: 20%;
+    color: white;
+}
+
+.section-2 #section-2-content2 h1 {
+    color: white;
+    font-family: 'playfair_displayregular';
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.section-2 #section-2-content2 h3 {
+    color: white;
+    font-family: 'playfair_displayregular';
+    font-size: 2.5em;
+    line-height: 1em;
+    padding-bottom: 10%;
+    border-bottom: 2px solid #E1926C;
+}
+
+.section-2 #section-2-content2 #section-2-para1{
+    font-size: 1.2em;
+    color: #61676B;
+    padding-bottom: 10%;
+    line-height: 2em;
+}
+
+.section-2 #section-2-content2 #section-2-para2{
+    font-size: 1.2em;
+    color: white;
+    padding-bottom: 6%;
+}
+
+.section-2 #section-2-content2 #section-2-email {
+    display: flex;
+}
+
+.section-2 #section-2-content2 a {
+    background-color: #E1926C;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+
+.section-3 {
+    background-image: url(../assets/images/img6.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-3 #section-3-content1 {
+    background-image: url(../assets/images/img5-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin-top: 15%;
+}
+
+.section-3 #section-3-content2 {
+    margin-top: 25%;
+    color: white;
+    padding-left: 15%;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.section-3 #section-3-content2 h1 {
+    color: white;
+    font-family: 'playfair_displayregular';
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1em;
+    padding-bottom: 10%;
+    border-bottom: 2px solid #E1926C;
+} 
+
+.section-3 #section-3-para1 {
+    padding-top: 10%;
+}
+
+
+#user-name {
+    padding-top: 10%;
+    color: #E1926C;
+}
+
+.section-4 {
+    height: 70vh;
+    background-image: url(../assets/images/img8-1.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+    margin-top: -5%;
+}
+
+.section-4 .row div h3 {
+    display: inline-block;
+    font-family: 'playfair_displayregular';
+    font-size: 4rem;
+    color: white;
+    padding: 0 12% 18% 12%;
+    border-bottom: 2px solid #E1926C;
+}
+
+.section-4 .row div h6 {
+    font-family: 'playfair_displayregular';
+    text-align: center;
+    font-size: 1.1em;
+    color: white;
+    padding-top: 10%;
+    width: 60%;
+}
+
+@media (min-width:470px) and (max-width:900px) {
+
+ header {
+    height: 70vh;
+    /* background-image: url(../assets/images/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg); */
+    background: #1E1F21;
+    background-image: url(../assets/images/Untitled_half.jpg);
+    /* background-size: contain; */
+    background-repeat: no-repeat; 
+    background-size: 70%;
+    background-position: 0% 50%;
+}
+
+.section-1 #section-1-content h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.section-1 #section-1-content h3{
+    line-height: 1.1em;
+    padding-bottom: 10%;
+    border-bottom: 2px solid #E1926C;
+}
+
+.section-1 #section-1-content p{
+    font-family: 'Lato';
+    font-size: 1em;
+    line-height: 2em;
+}
+
+
+
+.section-2 #section-2-content2 #section-2-email {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.section-2 #section-2-content2 #section-2-email a {
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 10px 30px;
+}
+
+.section-4 {
+    height: 70vh;
+    background-image: url(../assets/images/img8-1.webp);
+    background-size: cover;
+    background-position: center;
+    margin-top: -10%;
+    padding-top: 25%;
+}
+
+}
+@media (max-width:460px)
+{
+
+header {
+    height: 90vh;
+    /* background-image: url(../assets/images/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg); */
+    background: #2A2E31;
+    background-image: url(../assets/images/image.jpg);
+    /* background-size: contain; */
+    background-repeat: no-repeat; 
+    background-size: 200%;
+    background-position: right;
+}
+header nav {
+    background-color: black;
+}
+
+header nav a h2 {
+    padding: 0;
+    margin-left: 60%;
+    color: white;
+}
+
+header nav .navbar-toggler span {
+    border-color: green;
+}
+
+header #header-content h2{
+    font-size: 1.5em;
+}
+
+header #header-content h3{
+    font-size: 40px;
+}
+
+header #header-content p {
+    /* padding-top: 15%; */
+    padding-top: 5vh;
+    font-size: 1.1em;
+    padding-bottom: 10%;
+}
+
+
+.section-1 #section-1-content {
+    margin-top: 5vh;
+
+}
+
+.section-1 #section-1-content h1 {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.section-1 #section-1-content h3{
+    font-size: 30px;
+}
+
+.section-1 #section-1-content p{
+    font-size: 1em;
+    color: white;
+}
+.section-1 #section-1-content a {
+    margin-top: 5%;
+}
+.section-1 {
+    background-size: cover;
+    background-position: left;
+}
+
+.section-2 {
+    height: 100vh;
+}
+
+
+.section-2 #section-2-content2 {
+margin-top: 5vh;
+}
+
+.section-2 #section-2-content2 h1 {
+    margin-top: 5%;
+}
+
+.section-2 #section-2-content2 h1 {
+    font-size: 2.0em;
+}
+
+.section-2 #section-2-content2 h3 {
+    font-size: 2.0em;
+    padding-bottom: 3vh;  
+}
+
+.section-2 #section-2-content2 #section-2-para1{
+    font-size: 1em;
+    margin-top: 5vh;
+}
+
+.section-2 #section-2-content2 #section-2-para2{
+    font-size: 1.1em;
+}
+.section-2 #section-2-content2 #section-2-email {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+}
+.section-2 #section-2-content2 #section-2-email a {
+    margin-top: 10px;
+}
+
+.section-2 #section-2-content2 a {
+    background-color: #E1926C;
+    color: white;
+    border-radius: 4px;
+    margin-left: 0;
+}
+
+.section-3 {
+    background-image: url(../assets/images/img6.webp);
+    background-size: initial;
+    background-position: center;
+    height: 100%;
+}
+
+.section-3 #section-3-content1 {
+    display: none;
+}
+
+.section-3 #section-3-content2 {
+    padding-left: 3%;
+    margin-top: 5%;
+    color: #61676B;
+}
+
+.section-3 #section-3-content2 h1{
+    font-size: 1.3em;
+}
+
+.section-3 #section-3-content2 #section-3-para1 {
+    font-style: 1em;
+}
+
+#user-name {
+    padding-top: 0;
+    color: #E1926C;
+}
+
+
+.section-4 {
+    height: 100vh;
+    background-image: url(../assets/images/img8-1.webp);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    /* padding-top: 0; */
+    padding-top: 2%;
+    margin-top: 0;
+}
+
+.section-4 .row div{
+   text-align: center;
+   height: 100%;
+}
+
+.section-4 .row div h3 {
+    font-family: 'playfair_displayregular';
+    font-size: 3em;
+    color: white;
+    padding: 0 8% 5% 8%;
+    border-bottom: 2px solid #E1926C;
+}
+
+.section-4 .row div h6 {
+    display: block;
+    font-family: 'playfair_displayregular';
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    width: 100%;
+}
+
+}
